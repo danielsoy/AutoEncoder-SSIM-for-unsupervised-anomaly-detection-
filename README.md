@@ -17,7 +17,13 @@ MVTec AD datasets https://www.mvtec.com/company/research/datasets/mvtec-ad/
 
 ### Step 1. Set the *DATASET_PATH* variable.
 
-Set the [DATASET_PATH](options.py#L046) to the root path of the downloaded MVTec AD dataset.
+Set the [DATASET_PATH](options.py#L046) to the root path of the downloaded MVTec AD dataset.(Original)
+
+edited:
+Options.py file line 46, has been changed to:
+DATASET_PATH = 'content/drive/MyDrive/mvtec_anomaly_detection'
+To run train.py, from google colab after upload your custom dataset to colab from you google drive.
+
 
 ### Step 2. Train **SSIM-AE** and Test.
 
